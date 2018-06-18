@@ -7,14 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A73DD15B209C697700E56776 /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = A73DD15A209C697700E56776 /* Inceptionv3.mlmodel */; };
 		A7494FF620922F7E001A3964 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7494FF520922F7E001A3964 /* AppDelegate.swift */; };
 		A7494FF820922F7E001A3964 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7494FF720922F7E001A3964 /* ViewController.swift */; };
 		A7494FFB20922F7E001A3964 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7494FF920922F7E001A3964 /* Main.storyboard */; };
 		A7494FFD20922F80001A3964 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7494FFC20922F80001A3964 /* Assets.xcassets */; };
 		A749500020922F80001A3964 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7494FFE20922F80001A3964 /* LaunchScreen.storyboard */; };
+		A754245F20B7196200300033 /* AnnotationNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = A754245E20B7196200300033 /* AnnotationNode.swift */; };
+		A76C1B2920BDAB1E00A7B4DB /* HalfModalInteractiveTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = A76C1B2420BDAB1E00A7B4DB /* HalfModalInteractiveTransition.swift */; };
+		A76C1B2A20BDAB1E00A7B4DB /* HalfModalTransitionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A76C1B2520BDAB1E00A7B4DB /* HalfModalTransitionAnimator.swift */; };
+		A76C1B2B20BDAB1E00A7B4DB /* HalfModalTransitioningDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A76C1B2620BDAB1E00A7B4DB /* HalfModalTransitioningDelegate.swift */; };
+		A76C1B2C20BDAB1E00A7B4DB /* HalfModalPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A76C1B2820BDAB1E00A7B4DB /* HalfModalPresentationController.swift */; };
+		A76C1B2E20BE0DC100A7B4DB /* ItemLabelNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = A76C1B2D20BE0DC100A7B4DB /* ItemLabelNode.swift */; };
+		A7B66A9D20BE6A580066489B /* AppNavController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B66A9B20BE6A580066489B /* AppNavController.swift */; };
+		A7B66A9E20BE6A580066489B /* ModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B66A9C20BE6A580066489B /* ModalViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A73DD15A209C697700E56776 /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
 		A7494FF220922F7E001A3964 /* Hofer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hofer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7494FF520922F7E001A3964 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A7494FF720922F7E001A3964 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +32,14 @@
 		A7494FFC20922F80001A3964 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A7494FFF20922F80001A3964 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A749500120922F80001A3964 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A754245E20B7196200300033 /* AnnotationNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnnotationNode.swift; sourceTree = "<group>"; };
+		A76C1B2420BDAB1E00A7B4DB /* HalfModalInteractiveTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HalfModalInteractiveTransition.swift; sourceTree = "<group>"; };
+		A76C1B2520BDAB1E00A7B4DB /* HalfModalTransitionAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HalfModalTransitionAnimator.swift; sourceTree = "<group>"; };
+		A76C1B2620BDAB1E00A7B4DB /* HalfModalTransitioningDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HalfModalTransitioningDelegate.swift; sourceTree = "<group>"; };
+		A76C1B2820BDAB1E00A7B4DB /* HalfModalPresentationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HalfModalPresentationController.swift; sourceTree = "<group>"; };
+		A76C1B2D20BE0DC100A7B4DB /* ItemLabelNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemLabelNode.swift; sourceTree = "<group>"; };
+		A7B66A9B20BE6A580066489B /* AppNavController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppNavController.swift; sourceTree = "<group>"; };
+		A7B66A9C20BE6A580066489B /* ModalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModalViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +72,39 @@
 		A7494FF420922F7E001A3964 /* Hofer */ = {
 			isa = PBXGroup;
 			children = (
+				A7B66A9B20BE6A580066489B /* AppNavController.swift */,
+				A7B66A9C20BE6A580066489B /* ModalViewController.swift */,
+				A76C1B2720BDAB1E00A7B4DB /* Presentation */,
+				A76C1B2320BDAB1E00A7B4DB /* Transitioning */,
+				A754245E20B7196200300033 /* AnnotationNode.swift */,
 				A7494FF520922F7E001A3964 /* AppDelegate.swift */,
 				A7494FF720922F7E001A3964 /* ViewController.swift */,
 				A7494FF920922F7E001A3964 /* Main.storyboard */,
 				A7494FFC20922F80001A3964 /* Assets.xcassets */,
 				A7494FFE20922F80001A3964 /* LaunchScreen.storyboard */,
 				A749500120922F80001A3964 /* Info.plist */,
+				A73DD15A209C697700E56776 /* Inceptionv3.mlmodel */,
+				A76C1B2D20BE0DC100A7B4DB /* ItemLabelNode.swift */,
 			);
 			path = Hofer;
+			sourceTree = "<group>";
+		};
+		A76C1B2320BDAB1E00A7B4DB /* Transitioning */ = {
+			isa = PBXGroup;
+			children = (
+				A76C1B2420BDAB1E00A7B4DB /* HalfModalInteractiveTransition.swift */,
+				A76C1B2520BDAB1E00A7B4DB /* HalfModalTransitionAnimator.swift */,
+				A76C1B2620BDAB1E00A7B4DB /* HalfModalTransitioningDelegate.swift */,
+			);
+			path = Transitioning;
+			sourceTree = "<group>";
+		};
+		A76C1B2720BDAB1E00A7B4DB /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				A76C1B2820BDAB1E00A7B4DB /* HalfModalPresentationController.swift */,
+			);
+			path = Presentation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,8 +178,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A76C1B2C20BDAB1E00A7B4DB /* HalfModalPresentationController.swift in Sources */,
+				A76C1B2E20BE0DC100A7B4DB /* ItemLabelNode.swift in Sources */,
+				A76C1B2B20BDAB1E00A7B4DB /* HalfModalTransitioningDelegate.swift in Sources */,
+				A7B66A9E20BE6A580066489B /* ModalViewController.swift in Sources */,
+				A754245F20B7196200300033 /* AnnotationNode.swift in Sources */,
+				A76C1B2920BDAB1E00A7B4DB /* HalfModalInteractiveTransition.swift in Sources */,
+				A76C1B2A20BDAB1E00A7B4DB /* HalfModalTransitionAnimator.swift in Sources */,
 				A7494FF820922F7E001A3964 /* ViewController.swift in Sources */,
+				A73DD15B209C697700E56776 /* Inceptionv3.mlmodel in Sources */,
 				A7494FF620922F7E001A3964 /* AppDelegate.swift in Sources */,
+				A7B66A9D20BE6A580066489B /* AppNavController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,14 +332,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AXBRK75K78;
 				INFOPLIST_FILE = Hofer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.dev-Magdi.Hofer";
+				PRODUCT_BUNDLE_IDENTIFIER = com.INC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -297,14 +353,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AXBRK75K78;
 				INFOPLIST_FILE = Hofer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.dev-Magdi.Hofer";
+				PRODUCT_BUNDLE_IDENTIFIER = com.INC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
